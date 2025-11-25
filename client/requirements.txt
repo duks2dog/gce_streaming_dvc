@@ -1,0 +1,5 @@
+websockets==12.0
+opencv-python==4.10.0.84
+pillow==10.4.0
+click==8.1.7
+python-dotenv==1.0.1
