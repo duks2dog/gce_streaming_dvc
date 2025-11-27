@@ -16,7 +16,7 @@ except ImportError as exc:  # pragma: no cover
         "google-generativeai is required to contact Gemini. Install google-generativeai>=0.7.2."
     ) from exc
 
-from gce_streaming.server import segment_utils
+from . import segment_utils
 
 
 def _build_caption_prompt(
