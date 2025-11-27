@@ -12,7 +12,7 @@ np = importlib.import_module("numpy")
 _pil_image_module = importlib.import_module("PIL.Image")
 Image = getattr(_pil_image_module, "Image")
 
-from gce_streaming.server import segment_utils
+from . import segment_utils
 
 logger = logging.getLogger(__name__)
 
